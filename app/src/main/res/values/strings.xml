@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Repo List</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_activity_name">Repo List</string>
+
+    <!-- Repo list strings -->
+    <string name="language_label">"Language:"</string>
+    <string name="stargazers_label">"Stargazers:"</string>
+    <string name="description_label">"Description:"</string>
+    <string name="owner_label">"Owner:"</string>
+
+    <!-- Dialogs -->
+    <string name="user_name_dialog_title">"Enter User Name or Company"</string>
+
+    <!-- Content Provider related -->
+    <string name="content_authority">com.jackblaszkowski.repolist</string>
+
+    <string name="title_activity_repo_list">Repo List Activity</string>
+    <string name="title_activity_repo_details">Repo Details</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingLeft="@dimen/text_vertical_margin"
+    android:paddingRight="@dimen/text_vertical_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/repo_details_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/DetailsTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DetailsLabel"
+            android:text="@string/description_label"/>
+
+        <TextView
+            android:id="@+id/repo_details_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/DetailsText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsLabel"
+                    android:text="@string/owner_label"/>
+
+                <TextView
+                    android:id="@+id/repo_details_owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DetailsText"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/DetailsLabel"
+                android:text="@string/language_label"/>
+
+            <TextView
+                android:id="@+id/repo_details_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/DetailsLabel"
+                android:text="@string/stargazers_label"/>
+
+            <TextView
+                android:id="@+id/repo_details_star_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DetailsText"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

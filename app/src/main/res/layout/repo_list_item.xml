@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/text_vertical_margin"
+    android:paddingRight="@dimen/text_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:id="@+id/repo_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListItemTitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ListItemLabel"
+            android:text="@string/language_label"/>
+
+        <TextView
+            android:id="@+id/repo_list_language"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/ListItemText"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ListItemLabel"
+            android:text="@string/stargazers_label"/>
+
+        <TextView
+            android:id="@+id/repo_list_star_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/ListItemText"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
